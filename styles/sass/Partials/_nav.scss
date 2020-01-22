@@ -1,0 +1,30 @@
+.mainnav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    background: black;
+    height: 100vh;
+    padding-right: 40px;
+    opacity: 0.5;
+
+    li {
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+    a {
+        color: white;
+        opacity: 1;
+        transition: all 0.5s;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+ul {
+
+    font-size: 2rem;
+}

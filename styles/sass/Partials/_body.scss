@@ -1,0 +1,71 @@
+html {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 62.5%;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+a {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 65%;
+
+}
+
+.about {
+    min-height: 80vh;
+    background: rgb(7, 10, 20);
+
+    p {
+        width: 60%;
+        padding-right: 40px;
+    }
+
+    img {
+        border: white 3px solid;
+        height: 350px;
+    }
+}
+
+.aboutFlex {
+    display: flex;
+
+}
+
+.publications {
+    height: 80vh;
+    background: rgb(7, 10, 20);
+}

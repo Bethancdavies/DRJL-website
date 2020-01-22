@@ -249,7 +249,7 @@ html {
   position: fixed;
   background: black;
   height: 100vh;
-  padding-right: 40px;
+  padding-right: 20px;
   opacity: 0.5;
 }
 
@@ -310,7 +310,6 @@ header h3 {
           justify-content: center;
   height: 90vh;
   max-width: 100%;
-  padding-left: 100px;
 }
 
 .contactIcons {
@@ -365,9 +364,15 @@ p {
   line-height: 1.5;
 }
 
+img {
+  width: auto;
+  height: auto;
+}
+
 .wrapper {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  padding: 0 70px;
 }
 
 .about {
@@ -375,36 +380,48 @@ p {
   background: #070a14;
 }
 
-.about p {
-  width: 60%;
-  padding-right: 40px;
-}
-
-@media (max-width: 768px) {
-  .about p {
-    padding-right: 0;
-  }
-}
-
 .about img {
   border: white 3px solid;
-  height: 350px;
+  max-height: 250px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-@media (max-width: 768px) {
-  .about img {
-    height: 200px;
-  }
+.aboutText {
+  width: 60%;
 }
 
 .aboutFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.publications {
-  height: 80vh;
+section {
+  min-height: 80vh;
   background: #070a14;
+}
+
+.education i {
+  font-size: 5rem;
+  padding-right: 30px;
+}
+
+.education p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.educationFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30px;
 }

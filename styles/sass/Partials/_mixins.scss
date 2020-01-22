@@ -11,3 +11,9 @@
     @content;
   }
 }
+
+@mixin firstBreak {
+  @media (max-width: 1170px) {
+    @content;
+  }
+}

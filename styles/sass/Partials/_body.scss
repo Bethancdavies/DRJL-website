@@ -1,3 +1,4 @@
+@import './mixins';
 html {
   font-family: 'Oxygen', sans-serif;
   font-size: 62.5%;
@@ -37,39 +38,53 @@ p {
   font-size: 1.8rem;
   line-height: 1.5;
 }
+img {
+  width: auto;
+  height: auto;
+}
 
 .wrapper {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  padding: 0 70px;
 }
 
 .about {
   min-height: 80vh;
   background: rgb(7, 10, 20);
 
-  p {
-    width: 60%;
-    padding-right: 40px;
-    @include tablet {
-      padding-right: 0;
-    }
-  }
-
   img {
     border: white 3px solid;
-    height: 350px;
-    @include tablet {
-      height: 200px;
-    }
+    max-height: 250px;
+    align-self: center;
   }
+}
+.aboutText {
+  width: 60%;
 }
 
 .aboutFlex {
   display: flex;
-  padding-left: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.publications {
-  height: 80vh;
+section {
+  min-height: 80vh;
   background: rgb(7, 10, 20);
+}
+// education
+.education {
+  i {
+    font-size: 5rem;
+    padding-right: 30px;
+  }
+  p {
+    align-self: center;
+  }
+}
+
+.educationFlex {
+  display: flex;
+  padding-bottom: 30px;
 }

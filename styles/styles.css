@@ -310,6 +310,7 @@ header h3 {
           justify-content: center;
   height: 90vh;
   max-width: 100%;
+  text-indent: 50px;
 }
 
 .contactIcons {
@@ -390,6 +391,7 @@ img {
 
 .aboutText {
   width: 60%;
+  text-indent: 50px;
 }
 
 .aboutFlex {
@@ -406,6 +408,7 @@ img {
 section {
   min-height: 80vh;
   background: #070a14;
+  margin: 0 auto;
 }
 
 .education i {
@@ -423,5 +426,39 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 30px;
+}
+
+.skills strong {
+  font-size: 3rem;
+}
+
+.skills div {
+  padding-bottom: 20px;
+}
+
+.skillsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skillsFlex p {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.skillsFlex img {
+  max-width: 60px;
+  max-height: 70px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.iconCredits {
+  display: none;
 }

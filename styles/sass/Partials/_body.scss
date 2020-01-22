@@ -61,6 +61,7 @@ img {
 }
 .aboutText {
   width: 60%;
+  text-indent: 50px;
 }
 
 .aboutFlex {
@@ -72,6 +73,7 @@ img {
 section {
   min-height: 80vh;
   background: rgb(7, 10, 20);
+  margin: 0 auto;
 }
 // education
 .education {
@@ -86,5 +88,29 @@ section {
 
 .educationFlex {
   display: flex;
+  justify-content: center;
   padding-bottom: 30px;
+}
+.skills {
+  strong {
+    font-size: 3rem;
+  }
+  div {
+    padding-bottom: 20px;
+  }
+}
+.skillsFlex {
+  display: flex;
+  p {
+    width: 80%;
+    padding-left: 20px;
+  }
+  img {
+    max-width: 60px;
+    max-height: 70px;
+    align-self: center;
+  }
+}
+.iconCredits {
+  display: none;
 }

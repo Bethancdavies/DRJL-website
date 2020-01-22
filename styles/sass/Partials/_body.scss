@@ -1,9 +1,8 @@
 html {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 62.5%;
-    color: white;
-    scroll-behavior: smooth;
-
+  font-family: 'Oxygen', sans-serif;
+  font-size: 62.5%;
+  color: white;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -16,56 +15,61 @@ p,
 li,
 ul,
 a {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 7rem;
-    font-family: 'Rubik', sans-serif;
+  font-size: 7rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 h2 {
-    font-size: 4rem;
-    padding: 50px 0;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
+  font-size: 4rem;
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 p {
-    font-size: 1.8rem;
-    line-height: 1.5;
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
 
 .wrapper {
-    margin: 0 auto;
-    width: 65%;
-
+  margin: 0 auto;
+  width: 70%;
 }
 
 .about {
-    min-height: 80vh;
-    background: rgb(7, 10, 20);
+  min-height: 80vh;
+  background: rgb(7, 10, 20);
 
-    p {
-        width: 60%;
-        padding-right: 40px;
+  p {
+    width: 60%;
+    padding-right: 40px;
+    @include tablet {
+      padding-right: 0;
     }
+  }
 
-    img {
-        border: white 3px solid;
-        height: 350px;
+  img {
+    border: white 3px solid;
+    height: 350px;
+    @include tablet {
+      height: 200px;
     }
+  }
 }
 
 .aboutFlex {
-    display: flex;
-
+  display: flex;
+  padding-left: 100px;
 }
 
 .publications {
-    height: 80vh;
-    background: rgb(7, 10, 20);
+  height: 80vh;
+  background: rgb(7, 10, 20);
 }

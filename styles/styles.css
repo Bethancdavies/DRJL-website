@@ -309,25 +309,18 @@ header h3 {
       -ms-flex-pack: center;
           justify-content: center;
   height: 90vh;
+  max-width: 100%;
+  padding-left: 100px;
 }
 
 .contactIcons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   position: fixed;
   right: 40px;
   top: 40px;
 }
 
 .contactIcons i {
-  padding-left: 20px;
+  padding-top: 20px;
   color: white;
   font-size: 3rem;
 }
@@ -374,7 +367,7 @@ p {
 
 .wrapper {
   margin: 0 auto;
-  width: 65%;
+  width: 70%;
 }
 
 .about {
@@ -387,15 +380,28 @@ p {
   padding-right: 40px;
 }
 
+@media (max-width: 768px) {
+  .about p {
+    padding-right: 0;
+  }
+}
+
 .about img {
   border: white 3px solid;
   height: 350px;
+}
+
+@media (max-width: 768px) {
+  .about img {
+    height: 200px;
+  }
 }
 
 .aboutFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 100px;
 }
 
 .publications {

@@ -346,6 +346,7 @@ a {
   margin: 0;
   list-style: none;
   text-decoration: none;
+  color: inherit;
 }
 
 h1 {
@@ -444,11 +445,13 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .skillsFlex p {
   width: 80%;
-  padding-left: 20px;
 }
 
 .skillsFlex img {
@@ -457,6 +460,14 @@ section {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.publications li {
+  padding-bottom: 20px;
+}
+
+.publications a {
+  font-size: 2.5rem;
 }
 
 .iconCredits {

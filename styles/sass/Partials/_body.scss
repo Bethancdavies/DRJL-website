@@ -38,6 +38,7 @@ h2 {
 p {
   font-size: 1.8rem;
   line-height: 1.5;
+  color: black;
 }
 img {
   width: auto;
@@ -51,9 +52,6 @@ img {
 }
 
 .about {
-  min-height: 80vh;
-  background: rgb(7, 10, 20);
-
   img {
     border: white 3px solid;
     max-height: 250px;
@@ -73,7 +71,7 @@ img {
 
 section {
   min-height: 80vh;
-  background: rgb(7, 10, 20);
+  background: #f9f9f9;
   margin: 0 auto;
 }
 // education

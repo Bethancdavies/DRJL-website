@@ -272,6 +272,11 @@ ul {
   font-size: 2rem;
 }
 
+footer {
+  text-align: center;
+  border-top: #020323 1px solid;
+}
+
 header {
   height: 100vh;
   background: #f9f9f9;
@@ -285,6 +290,10 @@ header h3 {
   padding-top: 20px;
   text-transform: uppercase;
   font-size: 3rem;
+  background: #020323;
+  padding: 5px 20px;
+  margin-top: 30px;
+  color: white;
 }
 
 .headerText {
@@ -298,8 +307,10 @@ header h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 90vh;
-  max-width: 100%;
 }
 
 .contactIcons {
@@ -341,6 +352,10 @@ a {
 h1 {
   font-size: 7rem;
   font-family: 'Rubik', sans-serif;
+  background: #020323;
+  padding: 5px 40px;
+  color: white;
+  text-align: center;
 }
 
 h2 {
@@ -453,6 +468,19 @@ section {
 
 .publications a {
   font-size: 2.5rem;
+}
+
+.contact {
+  min-height: 50vh;
+}
+
+.contactList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 7rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .iconCredits {

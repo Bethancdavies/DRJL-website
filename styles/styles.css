@@ -284,6 +284,7 @@ header p {
   padding: 20px;
   margin-top: 25px;
   margin-left: -20px;
+  text-indent: 50px;
 }
 
 header h3 {
@@ -305,7 +306,6 @@ header h3 {
           justify-content: center;
   height: 90vh;
   max-width: 100%;
-  text-indent: 50px;
 }
 
 .contactIcons {
@@ -316,8 +316,8 @@ header h3 {
 
 .contactIcons i {
   padding-top: 20px;
-  font-size: 3rem;
   color: #020323;
+  font-size: 3rem;
 }
 
 html {

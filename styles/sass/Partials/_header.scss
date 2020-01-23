@@ -1,6 +1,7 @@
 @import './mixins';
 header {
   height: 100vh;
+
   background: #f9f9f9;
 
   p {
@@ -10,6 +11,7 @@ header {
     padding: 20px;
     margin-top: 25px;
     margin-left: -20px;
+    text-indent: 50px;
   }
 
   h3 {
@@ -25,7 +27,6 @@ header {
   justify-content: center;
   height: 90vh;
   max-width: 100%;
-  text-indent: 50px;
 }
 
 .contactIcons {
@@ -35,7 +36,7 @@ header {
 
   i {
     padding-top: 20px;
-    font-size: 3rem;
     color: #020323;
+    font-size: 3rem;
   }
 }

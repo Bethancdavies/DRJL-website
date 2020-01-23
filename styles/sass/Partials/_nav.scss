@@ -3,10 +3,9 @@
   justify-content: center;
   flex-direction: column;
   position: fixed;
-  background: black;
+  background: #020323;
   height: 100vh;
   padding-right: 20px;
-  opacity: 0.5;
 
   li {
     padding-left: 40px;
@@ -14,7 +13,7 @@
   }
 
   a {
-    color: white;
+    color: whitesmoke;
     opacity: 1;
     transition: all 0.5s;
 

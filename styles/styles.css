@@ -247,10 +247,9 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  background: black;
+  background: #020323;
   height: 100vh;
   padding-right: 20px;
-  opacity: 0.5;
 }
 
 .mainnav li {
@@ -259,7 +258,7 @@ html {
 }
 
 .mainnav a {
-  color: white;
+  color: whitesmoke;
   opacity: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -317,14 +316,14 @@ header h3 {
 
 .contactIcons i {
   padding-top: 20px;
-  color: white;
   font-size: 3rem;
+  color: #020323;
 }
 
 html {
   font-family: 'Oxygen', sans-serif;
   font-size: 62.5%;
-  color: white;
+  color: black;
   scroll-behavior: smooth;
 }
 
@@ -360,7 +359,6 @@ h2 {
 p {
   font-size: 1.8rem;
   line-height: 1.5;
-  color: black;
 }
 
 img {

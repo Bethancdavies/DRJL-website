@@ -1,7 +1,6 @@
 @import './mixins';
 header {
   height: 100vh;
-
   background: #f9f9f9;
 
   p {
@@ -36,7 +35,7 @@ header {
 
   i {
     padding-top: 20px;
-    color: white;
     font-size: 3rem;
+    color: #020323;
   }
 }

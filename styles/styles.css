@@ -275,16 +275,10 @@ ul {
 header {
   height: 100vh;
   background: #f9f9f9;
-}
-
-header p {
-  min-width: 400px;
-  width: 70%;
-  background: rgba(8, 7, 16, 0.8);
-  padding: 20px;
-  margin-top: 25px;
-  margin-left: -20px;
-  text-indent: 50px;
+  background-image: url(../assets/brain-background.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 header h3 {
@@ -373,7 +367,7 @@ img {
 }
 
 .about img {
-  border: white 3px solid;
+  border: #020323 3px solid;
   max-height: 250px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

@@ -358,6 +358,12 @@ h1 {
   text-align: center;
 }
 
+@media (max-width: 1170px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
 h2 {
   font-size: 4rem;
   padding: 50px 0;
@@ -379,6 +385,12 @@ img {
   margin: 0 auto;
   width: 900px;
   padding: 0 70px;
+}
+
+@media (max-width: 1170px) {
+  .wrapper {
+    width: 800px;
+  }
 }
 
 .about img {

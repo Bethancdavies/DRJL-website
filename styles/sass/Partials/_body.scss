@@ -30,6 +30,9 @@ h1 {
   padding: 5px 40px;
   color: white;
   text-align: center;
+  @include firstBreak {
+    font-size: 5rem;
+  }
 }
 
 h2 {
@@ -52,6 +55,9 @@ img {
   margin: 0 auto;
   width: 900px;
   padding: 0 70px;
+  @include firstBreak {
+    width: 800px;
+  }
 }
 
 .about {
